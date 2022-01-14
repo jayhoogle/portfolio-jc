@@ -4,18 +4,18 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Posts
 - type: directory
-  path: content/projects
-  label: Projects
-  create: all
+  path: content/blog
+  label: Blog
+  create: documents
   match: "**/*"
   templates:
   - post
-- type: heading
-  label: Blog Post
 - type: directory
-  path: content/blog
-  label: Post
+  path: content/projects
+  label: Projects
   create: documents
   match: "**/*"
   templates:
