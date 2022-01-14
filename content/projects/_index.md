@@ -5,7 +5,7 @@ date = ""
 description = ""
 image = ""
 tags = []
-title = "_index"
+title = "Projects"
 
 +++
 The index page
