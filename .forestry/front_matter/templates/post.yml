@@ -25,5 +25,6 @@ fields:
   label: description
   description: Meta description
 pages:
+- content/_index.md.md
 - content/projects/_index.md
 - content/projects/a-test-project.md
